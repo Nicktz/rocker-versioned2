@@ -1,0 +1,18 @@
+---
+title: "README"
+output: html_document
+date: "2025-02-13"
+---
+
+## NK README
+
+
+```{r}
+source("build/scripts/generate-variables.R")
+source("build/scripts/generate-args.R")
+source("build/scripts/generate-matrix.R")
+source("build/scripts/generate-bakefiles.R")
+source("build/scripts/generate-dockerfiles.R")
+source("build/scripts/clean-files.R")
+```
+
